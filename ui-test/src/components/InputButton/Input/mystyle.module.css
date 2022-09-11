@@ -1,0 +1,15 @@
+.bigblue {
+    padding:5px 0 5px 0;
+    font-family: sans-serif;
+    text-align: left;
+  }
+
+.inputlabel{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: 2vh;
+    color:#40434A;
+    text-align:left;
+}  
+

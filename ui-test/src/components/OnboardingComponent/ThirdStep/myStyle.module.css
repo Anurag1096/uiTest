@@ -1,0 +1,66 @@
+.labl {
+    display : block;
+    width: 250px;
+    border-radius: 10px;
+}
+.labl2 {
+  display : block;
+  width: 250px;
+  border-radius: 10px;
+}
+.labl2 > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.labl > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.labl > input + div{ /* DIV STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+}
+.labl2 > input + div{ /* DIV STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.labl > input:checked + div{ /* (RADIO CHECKED) DIV STYLES */
+    border: 1px solid #847cc6;
+}
+.inputContainer{
+    text-align: start;
+  }
+
+.selectBoxContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.selectBox{
+   margin:10px;
+}  
+
+  .button{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    height:60px;
+    border-radius: 20px;
+  }
+  .header{
+    font-size: 3vh;
+    color:black
+  }
+  .subHeader{
+    font-size:1.4vh;
+    color:#9BA0AB
+  }
+  @media only screen and (max-width: 600px) {
+    .selectBoxContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+  }  

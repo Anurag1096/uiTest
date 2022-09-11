@@ -1,0 +1,23 @@
+.inputContainer{
+    text-align: start;
+  }
+  .para{
+      padding-left: 10px;
+      color:#fc0303;
+  }
+  .button{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    height:60px;
+    border-radius: 20px;
+  }
+
+  .header{
+    font-size: 3vh;
+    color:black
+  }
+  .subHeader{
+    font-size:1.4vh;
+    color:#9BA0AB
+  }  
