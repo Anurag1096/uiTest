@@ -49,11 +49,11 @@
   }
   @media only screen and (min-width: 992px) {
     .divone{
-      width: 720px;
+      width: 520px;
     }
   }
   @media only screen and (min-width: 1200px) {
     .divone{
-      width: 720px;
+      width: 520px;
     }
   }  
